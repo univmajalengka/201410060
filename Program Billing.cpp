@@ -1,8 +1,13 @@
+//Program Billing
+//Procedure and Function
 #include <iostream>
 using namespace std;
+void hasil (int a);
+int proses (int a, int b);
 main()
 {
-    int j,m,d,td,sm,j2,m2,d2,td2,j3,m3,d3,td3;
+    int j,m,d,td,sm,j2,m2,d2,td2,td3;
+	float j3,m3,d3;
 	
 	cout<<"MENCARI PERBEDAAN 2 WAKTU (PROGRAM BILLING)"<<endl;
 	cout<<endl;
@@ -17,7 +22,7 @@ main()
     cout<<"menit = ";cin>>m2;
     cout<<"detik = ";cin>>d2;
     cout<<"WAKTUNYA = "<<j2<<":"<<m2<<":"<<d2<<endl;
-	td=(j*3600)+(m*60)+d;
+	td=proses(j2,m2,d2);
 	td2=(j2*3600)+(m2*60)+d2;
 	td3=td2-td;
 	j3=td3/3600;
@@ -27,3 +32,6 @@ main()
 	cout<<"JADI PERBEDAAN WAKTUNYA ADALAH : "<<j3<<":"<<m3<<":"<<d3;
     return 0;
 }
+
+
+
