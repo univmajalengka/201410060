@@ -6,7 +6,7 @@ int function_waktu (int td);
 void tampil (int show);
 int main(){
 	cout<<"-----------------------------------------"<<endl;
-	cout<<"- PROGRAM KONVERSI MENGGUNAKAN FUNCTION -"<<endl;
+	cout<<"- PROGRAM FUNCTION KONVERSI TOTAL DETIK -"<<endl;
 	cout<<"-----------------------------------------";
 	cout<<endl;
 	cout<<endl;
